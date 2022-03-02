@@ -1,0 +1,24 @@
+1. How to give permissions to user ? we use command $ useradd user1 , to add new user but how to give 
+    permission to it. chown we used for file level
+
+2. How to add content to a file, in linux?
+
+echo "text" >> filename
+cat filename
+
+3. checkout & restore(permanent delete data from present working directory) commands are used to remove data 
+     in current working directory, but does these commands are used to remove unstaged (unsaved) data only 
+     that means with out add & commited data.? 
+      
+     make dir (current working directory) 
+	create file (index.html)
+	add data
+	git init
+	git add
+	git commit
+	git status
+	git log
+	git switch
+	git branch
+	git checkout
+	git restore
